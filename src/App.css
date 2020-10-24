@@ -28,10 +28,28 @@
   color: #61dafb;
 }
 
+.btn {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none !important;
+  border-radius: 0.5rem !important;
+  color: aliceblue;
+}
+
+.btn-primary {
+  background-color: blueviolet;
+}
+
+.btn-primary:hover {
+  background-color: slateblue;
+  transform: translateX(1px) translateY(1px) scale3d(1.1, 1.1, 1.1);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
